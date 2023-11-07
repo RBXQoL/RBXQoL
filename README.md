@@ -1,4 +1,5 @@
 ## RBXQoL - v0.1.2
+###### (i suck at md design)
 
 ### Designed for RBXIDLE 1.0.0
 
