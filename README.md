@@ -1,4 +1,4 @@
-## RBXQoL - v0.1.3
+## RBXQoL - v0.1.4
 ###### (i suck at md design)
 
 ### Designed for RBXIDLE 1.0.0
@@ -9,17 +9,19 @@
 
 Install from the “Releases” section of Github.
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/50e3cf61c71719c5d7e0d8f3771530071945c90b61a830ed.png)
+![](https://cdn.nest.rip/uploads/556bfc39-0ab8-4df9-81ac-ce0974ebad28.png)
 
 #### Step 2
 
 Get the .zip file.
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/ea8385602a4afd7f24f581a3895d71285166cccc695194ee.png)
+![](https://cdn.nest.rip/uploads/0c25a10c-2d0f-47a7-bb5c-fb6d6f74e35d.png)
 
 #### Step 3
 
 Unzip and run “Installer Manager.bat”
+
+![](https://cdn.nest.rip/uploads/ded0915a-a77c-47ea-9585-2535e6675e4a.png)
 
 #### Step 4
 
