@@ -1,7 +1,7 @@
-## RBXQoL - v0.1.6
+## RBXQoL - v0.1.7
 ###### (i suck at md design)
 
-### Designed for RBXIDLE 1.0.0
+### Designed for RBXIDLE 1.0.2
 
 ### How to download RBXQoL
 
