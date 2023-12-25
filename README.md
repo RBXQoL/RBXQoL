@@ -1,6 +1,9 @@
 ## RBXQoL - v0.1.7
 ###### (i suck at md design)
 
+⚠️⚠️ THIS VERSION REQUIRES YOU TO INSTALL THE LATEST VERSION OF RBXIDLE TO WORK ⚠️⚠️
+⚠️⚠️ YOU CAN INSTALL THIS THROUGH THE RBXIDLE WEBSITE ⚠️⚠️
+
 ### Designed for RBXIDLE 1.0.2
 
 ### How to download RBXQoL
