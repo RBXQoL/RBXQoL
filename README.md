@@ -1,9 +1,11 @@
 ## RBXQoL - v0.1.8.1
-###### (i suck at md design)
-
-⚠️⚠️ THIS VERSION REQUIRES YOU TO INSTALL THE LATEST VERSION OF RBXIDLE TO WORK/ YOU CAN INSTALL THIS THROUGH THE RBXIDLE WEBSITE ⚠️⚠️
-
 ### Designed for RBXIDLE 1.0.2
+
+RBXQoL is a client modification that allows users to use a more intuitive UI version for RBXIDLE. RBXQoL also improves loading time, removes bloat and bugs as well as adding some helpful features.
+
+Have any inquries? Ask one of our amazing helpers in [our discord server](https://discord.gg/YjJzuZV9sx)
+
+Made with ❤️ by Megalaoofania and Mapler!
 
 ### How to download RBXQoL
 
