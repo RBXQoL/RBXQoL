@@ -1,5 +1,5 @@
-## RBXQoL - v0.1.8.2
-### Designed for RBXIDLE 1.0.6
+## RBXQoL - v0.1.9
+### Designed for RBXIDLE 1.0.7
 
 THIS VERSION DOES NOT WORK WITH RBXIDLE, PLEASE WAIT FOR US TO UPDATE!!!
 
