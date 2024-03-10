@@ -1,5 +1,6 @@
-## RBXQoL - v0.1.9
+## RBXQoL - v0.1.9.1
 ### Designed for RBXIDLE 1.0.7
+### © 2024 RBXQoL, operated by Mapler Services. All Rights Reserved. RBXQoL and Mapler Services are not affiliated with RBXIDLE, LLC
 
 RBXQoL is a client modification that allows users to use a more intuitive UI version for RBXIDLE. RBXQoL also improves loading time, removes bloat and bugs as well as adding some helpful features.
 
