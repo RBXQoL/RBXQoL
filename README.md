@@ -1,4 +1,4 @@
-## RBXQoL - v0.1.10
+## RBXQoL - v0.1.10.1
 ### Designed for RBXIDLE 1.0.7
 ### © 2024 RBXQoL, operated by Mapler Services. All Rights Reserved. RBXQoL and Mapler Services are not affiliated with RBXIDLE, LLC
 
