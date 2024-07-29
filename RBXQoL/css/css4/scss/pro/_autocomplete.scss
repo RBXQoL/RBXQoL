@@ -1,0 +1,78 @@
+// MDB Autocomplete
+.mdb-autocomplete {
+  margin-bottom: $autocomplete-margin-bottom;
+
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+  }
+}
+
+.mdb-autocomplete ~ label {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mdb-autocomplete:focus ~ label {
+  color: $primary;
+}
+
+button {
+  &:focus {
+    outline: 0 !important;
+  }
+
+  &.mdb-autocomplete-clear {
+    position: absolute;
+    top: $autocomplete-clear-top;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    visibility: hidden;
+    background: transparent;
+    border: none;
+
+    svg {
+      fill: $autocomplete-clear-color;
+    }
+  }
+}
+
+.mdb-autocomplete-wrap {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  padding-left: 0;
+  overflow-y: auto;
+  list-style-type: none;
+  background: $white-base;
+  box-shadow: $z-depth-1;
+
+  li {
+    padding: $autocomplete-wrap-li-padding-y $autocomplete-wrap-li-padding-x;
+    font-size: $autocomplete-wrap-li-font-size;
+    cursor: pointer;
+
+    &:hover {
+      background: $autocomplete-wrap-li-hover-bg;
+    }
+    &.selected {
+      background-color: $autocomplete-wrap-li-hover-bg;
+    }
+  }
+}
+
+.form-inline {
+  .md-form {
+    .form-control {
+      &.mdb-autocomplete {
+        width: $form-inline-autocomplete-width;
+      }
+    }
+  }
+}

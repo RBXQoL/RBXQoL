@@ -1,0 +1,84 @@
+@import "../core/colors";
+@import "../core/variables";
+@import "../pro/variables";
+@import "../pro/mixins";
+
+@supports (--css: variables) {
+  input[type="range"].mdbMultiRange {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+
+    // firefox fix to prevent selection of the input instead of the thumb element
+    // when having multiple sliders
+    pointer-events:none;
+    overflow: visible;
+
+    &::-webkit-slider-runnable-track,
+    &::-webkit-slider-thumb {
+      pointer-events: all;
+    }
+    
+    &::-ms-thumb,
+    &::-ms-track  {
+      pointer-events: all;
+    }
+    
+    .nonSlider {
+      background: none !important;
+    }
+
+    &::-moz-range-thumb {
+      pointer-events: all;
+      z-index: 2;
+    }
+
+    &.nonSlider::-moz-range-track {
+      height: 0;
+      background: none;
+      display: none;
+      pointer-events: none;
+    }
+
+    &.original {
+      position: absolute;
+
+      &::-webkit-slider-thumb {
+        position: relative;
+        z-index: 2;
+      }
+
+      &::-moz-range-thumb {
+        z-index: 1;
+        transform: scale(1);
+      }
+    }
+
+    &::-moz-range-track {
+      border-color: transparent;
+    }
+
+    &.ghost {
+      position: relative;
+
+      &:nth-of-type(n+1) {
+        position: absolute;
+      }
+    }
+  }
+}
+
+.multi-range-field {
+  @include range;
+}
+
+.thumb-horizontal-wrapper {
+  position: relative;
+  top: 500px;
+  transform: rotate(-270deg);
+}
+
+.multi-range-field input[type="range"] + .thumb-horizontal .value {
+  transform: rotate(315deg) !important;
+}
