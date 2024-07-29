@@ -1,0 +1,56 @@
+{
+  "name": "RBXIDLE",
+  "version": "1.0.7",
+  "description": "Earn rewards using PC idle power.",
+  "main": "main.js",
+  "author": "Tox",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tox-lol/rbxidle-updates.git"
+  },
+  "dependencies": {
+    "bytenode": "^1.3.3",
+    "cryptr": "^6.0.2",
+    "decompress-zip": "^0.3.3",
+    "discord-rpc": "^4.0.1",
+    "electron-dl": "^3.5.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-sudo": "^4.0.12",
+    "electron-updater": "^4.6.1",
+    "node-windows": "^1.0.0-beta.7",
+    "request": "^2.88.2",
+    "semver": "^7.3.5",
+    "sudo-prompt": "^9.2.1",
+    "systeminformation": "^5.21.20",
+    "unzipper": "^0.10.14",
+    "xml2js": "^0.4.23"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "rbxidle_elec"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  }
+}
